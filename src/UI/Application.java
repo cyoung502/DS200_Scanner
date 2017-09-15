@@ -7,6 +7,7 @@ package UI;
 
 import Source.DS200;
 import Source.DS200List;
+import com.bulenkov.darcula.DarculaLaf;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,9 +15,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.DefaultListModel;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
@@ -439,47 +446,45 @@ public class Application extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
 
-        java.awt.EventQueue.invokeLater(new Runnable(){
-            public void run() {
-                new DeleteDialog().setVisible(true);
-            }
-        });
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) throws FileNotFoundException, IOException, ClassNotFoundException{
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Application.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Application.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Application.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Application.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+    public static void main(String args[]) throws FileNotFoundException, IOException, ClassNotFoundException, InterruptedException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException{
+        UIManager.setLookAndFeel(new DarculaLaf());
 
+        Splash splash = new Splash();
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Application().setVisible(true);
+                splash.setVisible(true);
             }
         });
-
+        Thread.sleep(ThreadLocalRandom.current().nextInt(2500, 5000));
+        splash.dispose();
+        Application application = new Application();
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                application.setVisible(true);
+            }
+        });
+        
+        File folder = new File("data");
+        File[] files = folder.listFiles();
+        ArrayList<String> fileNames = new ArrayList<String>();
+        for(int i = 0; i < files.length; i++){
+            if(files[i].isFile()){
+                fileNames.add(files[i].getName());
+            }
+        }
+        DefaultListModel dlm = new DefaultListModel();
+        for(int j = 0; j < fileNames.size(); j++){
+            dlm.addElement(fileNames.get(j));
+        }
+        application.jList1.setModel(dlm);
+        
         DS200 a = new DS200();
         DS200List list = new DS200List("Test", "John", "Jim");
         list.addMachine(a);
