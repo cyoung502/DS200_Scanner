@@ -36,7 +36,7 @@ public class Logger {
     
     
     public void log(String message) throws IOException{
-        FileWriter fw = new FileWriter(needFileHere);
+        FileWriter fw = new FileWriter(logName);
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(message);
         bw.close();

@@ -107,6 +107,11 @@ public class Application extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jList1);
 
         jButton2.setText("Open List");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Close List");
 
@@ -181,6 +186,7 @@ public class Application extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Table"));
 
+        jTable1.setAutoCreateRowSorter(true);
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null},
@@ -246,6 +252,7 @@ public class Application extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        jTable1.setColumnSelectionAllowed(true);
         jScrollPane2.setViewportView(jTable1);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -390,6 +397,7 @@ public class Application extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -448,15 +456,24 @@ public class Application extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton4ActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
+     * @throws java.io.FileNotFoundException
+     * @throws java.lang.ClassNotFoundException
+     * @throws java.lang.InstantiationException
+     * @throws java.lang.InterruptedException
+     * @throws java.lang.IllegalAccessException
+     * @throws javax.swing.UnsupportedLookAndFeelException
      */
     public static void main(String args[]) throws FileNotFoundException, IOException, ClassNotFoundException, InterruptedException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException{
+        
         UIManager.setLookAndFeel(new DarculaLaf());
 
         Splash splash = new Splash();
-        
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 splash.setVisible(true);
@@ -471,8 +488,7 @@ public class Application extends javax.swing.JFrame {
             }
         });
         
-        File folder = new File("data");
-        File[] files = folder.listFiles();
+        File[] files = new File("data").listFiles();
         ArrayList<String> fileNames = new ArrayList<String>();
         for(int i = 0; i < files.length; i++){
             if(files[i].isFile()){
