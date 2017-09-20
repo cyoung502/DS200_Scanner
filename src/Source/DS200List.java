@@ -16,7 +16,7 @@ import java.util.Objects;
  *
  * @author noemailgmail
  */
-public class DS200List implements Serializable {
+public class DS200List extends ArrayList implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private String listName;
@@ -136,12 +136,12 @@ public class DS200List implements Serializable {
 
     @Override
     public String toString() {
-        return "DS200List{" + "listName=" + listName + ", demName=" + demName + ", repName=" + repName + ", date=" + date + ", list=" + list + '}';
+        return "DS200List{" + "listName=" + listName + ", demName=" + demName + ", repName=" + repName + ", date=" + printDate() + ", list=" + list + '}';
     }
     
     
     public String printDate(){
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm:ssa MM/dd/yyyy ");
         return dateFormat.format(this.date);
     }
     

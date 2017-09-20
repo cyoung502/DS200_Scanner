@@ -9,38 +9,44 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  *
  * @author noemailgmail
  */
 public class Logger {
-    
+
     private String logName;
 
     public Logger() throws IOException {
-        //TODO: get date as MMDDYYYY;
-        logName = "";
-        
+        //Create logname
+        logName = "logs/" + new SimpleDateFormat("MM_dd_yyyy").format(new Date()) + ".txt";
+        //Create dir if doesn't exist
         File dir = new File("logs");
-        if(!dir.exists()){
+        if (!dir.exists()) {
             dir.mkdir();
         }
-        
-        File log = new File("logs/" + logName + ".txt");
-        if(!log.exists()){
-            log.createNewFile();
-        }
     }
-    
-    
-    
-    public void log(String message) throws IOException{
-        FileWriter fw = new FileWriter(logName);
+
+    public void log(String message) throws IOException {
+        FileWriter fw = new FileWriter(this.getLogName(), true);
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(message);
+        PrintWriter pw = new PrintWriter(bw);
+        pw.println(message);
+        pw.close();
         bw.close();
         fw.close();
     }
-    
+
+    public String getLogName() {
+        return logName;
+    }
+
+    public void setLogName(String logName) {
+        this.logName = logName;
+    }
+
 }
