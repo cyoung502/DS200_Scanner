@@ -32,7 +32,6 @@ public class FileManager {
         oos.writeObject(list);
         oos.close();
         fos.close();
-        //System.out.println("Saved list to /data/" + list + ".cray");
     }
 
     public DS200List getList(String listName) throws FileNotFoundException, IOException, ClassNotFoundException {

@@ -79,8 +79,8 @@ public class Application {
 
         DS200 a = new DS200("221001", "green", "red", "IS05512", "bin666", "lid555", "door333", "left222", "right1121");
         DS200List list = new DS200List("Test", "John", "Jim");
-        for(int i = 0; i < 10000000; i++){
-        list.addMachine(a);            
+        for (int i = 0; i < 1085; i++) {
+            list.addMachine(a);
         }
         log("List Created!", logger);
 
@@ -100,18 +100,19 @@ public class Application {
         ois.close();
         fis.close();
         DefaultTableModel dtm = new DefaultTableModel(new String[]{
-            "T / AD / ED", "Green Seal", "Red Seal", "Machine Number", "Bin Seal", "Lid Seal", "Door Seal", "Left Seal", "Right Seal"
+            "Index", "T / AD / ED", "Green Seal", "Red Seal", "Machine Number", "Bin Seal", "Lid Seal", "Door Seal", "Left Seal", "Right Seal"
         }, readList.getList().size());
         for (int i = 0; i < readList.getList().size(); i++) {
-            dtm.setValueAt(readList.getList().get(i).gettAdEd(), i, 0);
-            dtm.setValueAt(readList.getList().get(i).getGreenSeal(), i, 1);
-            dtm.setValueAt(readList.getList().get(i).getRedSeal(), i, 2);
-            dtm.setValueAt(readList.getList().get(i).getMachineNumber(), i, 3);
-            dtm.setValueAt(readList.getList().get(i).getBinSeal(), i, 4);
-            dtm.setValueAt(readList.getList().get(i).getLidSeal(), i, 5);
-            dtm.setValueAt(readList.getList().get(i).getDoorSeal(), i, 6);
-            dtm.setValueAt(readList.getList().get(i).getLeftSeal(), i, 7);
-            dtm.setValueAt(readList.getList().get(i).getRightSeal(), i, 8);
+            dtm.setValueAt(i, i, 0);
+            dtm.setValueAt(readList.getList().get(i).gettAdEd(), i, 1);
+            dtm.setValueAt(readList.getList().get(i).getGreenSeal(), i, 2);
+            dtm.setValueAt(readList.getList().get(i).getRedSeal(), i, 3);
+            dtm.setValueAt(readList.getList().get(i).getMachineNumber(), i, 4);
+            dtm.setValueAt(readList.getList().get(i).getBinSeal(), i, 5);
+            dtm.setValueAt(readList.getList().get(i).getLidSeal(), i, 6);
+            dtm.setValueAt(readList.getList().get(i).getDoorSeal(), i, 7);
+            dtm.setValueAt(readList.getList().get(i).getLeftSeal(), i, 8);
+            dtm.setValueAt(readList.getList().get(i).getRightSeal(), i, 9);
         }
         application.jTable1.setModel(dtm);
 

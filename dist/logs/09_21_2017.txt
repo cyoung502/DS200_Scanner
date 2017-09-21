@@ -1,0 +1,6 @@
+[12:32:09AM]: List Created!
+[12:32:09AM]: List Saved!
+[12:32:09AM]: Done loading 1,085 records
+[12:33:06AM]: List Created!
+[12:33:06AM]: List Saved!
+[12:33:06AM]: Done loading 1,085 records
