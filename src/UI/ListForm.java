@@ -5,6 +5,7 @@
  */
 package UI;
 
+import static Source.Application.updateList;
 import Source.DS200List;
 import Source.FileManager;
 import java.io.IOException;
@@ -238,16 +239,17 @@ public class ListForm extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        DS200List list = new DS200List(this.jTextField1.getText(), this.jTextField2.getText(), this.jTextField3.getText());
-        FileManager fm = new FileManager();
         try {
+            DS200List list = new DS200List(this.jTextField1.getText(), this.jTextField2.getText(), this.jTextField3.getText());
+            FileManager fm = new FileManager();
             fm.saveList(list, this.jTextField1.getText());
             this.jDialog1.setVisible(true);
+            updateList();
             this.dispose();
         } catch (IOException ex) {
             Logger.getLogger(ListForm.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed

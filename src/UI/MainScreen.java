@@ -6,21 +6,24 @@
 package UI;
 
 import static Source.Application.log;
+import static Source.Application.updateList;
 import Source.DS200;
 import Source.DS200List;
 import Source.Logger;
 import com.bulenkov.darcula.DarculaLaf;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
+import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Level;
-import javax.swing.DefaultListModel;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.table.DefaultTableModel;
@@ -30,11 +33,12 @@ import javax.swing.table.DefaultTableModel;
  * @author noemailgmail
  */
 public class MainScreen extends javax.swing.JFrame {
-
-    public static Logger logger;
     
+    public static Logger logger;
+
     /**
      * Creates new form Application
+     *
      * @throws java.io.IOException
      */
     public MainScreen() throws IOException {
@@ -72,6 +76,7 @@ public class MainScreen extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -115,6 +120,7 @@ public class MainScreen extends javax.swing.JFrame {
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
+        jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(jList1);
 
         jButton2.setText("Open List");
@@ -125,6 +131,7 @@ public class MainScreen extends javax.swing.JFrame {
         });
 
         jButton3.setText("Close List");
+        jButton3.setEnabled(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -132,6 +139,7 @@ public class MainScreen extends javax.swing.JFrame {
         });
 
         jButton4.setText("Delete List");
+        jButton4.setEnabled(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -141,6 +149,7 @@ public class MainScreen extends javax.swing.JFrame {
         jLabel2.setText("Add Machines :");
 
         jButton5.setText("New Machine");
+        jButton5.setEnabled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -148,8 +157,15 @@ public class MainScreen extends javax.swing.JFrame {
         });
 
         jButton6.setText("Export List");
+        jButton6.setEnabled(false);
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("Save List");
+        jButton7.setEnabled(false);
 
         jLabel3.setText("List Date:");
 
@@ -163,6 +179,9 @@ public class MainScreen extends javax.swing.JFrame {
 
         jTextField3.setEditable(false);
 
+        jLabel6.setForeground(new java.awt.Color(102, 204, 255));
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -170,6 +189,9 @@ public class MainScreen extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())
                     .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -233,6 +255,8 @@ public class MainScreen extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5)
                     .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -275,12 +299,11 @@ public class MainScreen extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Console"));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Log Output"));
 
         jTextPane1.setEditable(false);
         jTextPane1.setFont(new java.awt.Font("Ubuntu Mono", 0, 14)); // NOI18N
         jTextPane1.setForeground(new java.awt.Color(102, 255, 102));
-        jTextPane1.setText("BaDOODLE");
         jTextPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane3.setViewportView(jTextPane1);
 
@@ -415,12 +438,12 @@ public class MainScreen extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
-
+        
         this.dispose();
     }//GEN-LAST:event_jMenuItem8ActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new ListForm().setVisible(true);
@@ -429,7 +452,7 @@ public class MainScreen extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MachineForm().setVisible(true);
@@ -456,25 +479,144 @@ public class MainScreen extends javax.swing.JFrame {
             }
         });
     }//GEN-LAST:event_jMenuItem10ActionPerformed
-
+    
+    @SuppressWarnings("unchecked")
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-
+        java.awt.EventQueue.invokeLater(() -> {
+            try {
+                new DeleteDialog().setVisible(true);
+            } catch (IOException ex) {
+                java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        });
+//        try {
+//            String fileName = this.jList1.getSelectedValue();
+//            boolean delete = new File("data/" + fileName).delete();
+//            if (delete) {
+//                updateList();
+//                log("List deleted: " + fileName, logger);
+//            } else {
+//                log("Unable to delete " + fileName, logger);
+//            }
+//        } catch (IOException ex) {
+//            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+//        }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        try {
+            String fileName = this.jList1.getSelectedValue();
+            if (fileName != null) {
+                log("List Opened: " + fileName, logger);
+                FileInputStream fis = new FileInputStream("data/" + fileName);
+                ObjectInputStream ois = new ObjectInputStream(fis);
+                DS200List readList = (DS200List) ois.readObject();
+                ois.close();
+                fis.close();
+                DefaultTableModel dtm = new DefaultTableModel(new String[]{
+                    "Index", "T / AD / ED", "Green Seal", "Red Seal", "Machine Number", "Bin Seal", "Lid Seal", "Door Seal", "Left Seal", "Right Seal"
+                }, readList.getList().size());
+                for (int i = 0; i < readList.getList().size(); i++) {
+                    dtm.setValueAt(i, i, 0);
+                    dtm.setValueAt(readList.getList().get(i).gettAdEd(), i, 1);
+                    dtm.setValueAt(readList.getList().get(i).getGreenSeal(), i, 2);
+                    dtm.setValueAt(readList.getList().get(i).getRedSeal(), i, 3);
+                    dtm.setValueAt(readList.getList().get(i).getMachineNumber(), i, 4);
+                    dtm.setValueAt(readList.getList().get(i).getBinSeal(), i, 5);
+                    dtm.setValueAt(readList.getList().get(i).getLidSeal(), i, 6);
+                    dtm.setValueAt(readList.getList().get(i).getDoorSeal(), i, 7);
+                    dtm.setValueAt(readList.getList().get(i).getLeftSeal(), i, 8);
+                    dtm.setValueAt(readList.getList().get(i).getRightSeal(), i, 9);
+                    dtm.addRow(readList.getList().toArray());
+                }
+                this.jTable1.setModel(dtm);
+                this.jTextField1.setText(new SimpleDateFormat("E MM/dd/yyyy").format(readList.getDate()));
+                this.jTextField2.setText(readList.getDemName());
+                this.jTextField3.setText(readList.getRepName());
+                this.jLabel6.setText("[" + String.format("%,d", readList.getList().size()) + " records loaded]");
+                this.jButton3.setEnabled(true);
+                this.jButton4.setEnabled(true);
+                this.jButton6.setEnabled(true);
+                this.jButton7.setEnabled(true);
+                this.jList1.setEnabled(false);
+                this.jButton1.setEnabled(false);
+                this.jButton5.setEnabled(true);
+                log("Done loading " + String.format("%,d", readList.getList().size()) + " records", logger);
+            } else {
+                log("No list is selected...", logger);
+            }
+        } catch (FileNotFoundException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-        this.jTable1.setEnabled(false);
-        this.jTable1.setModel(new DefaultTableModel());
+        
         try {
-            log("List Cleared!", logger);
+            String fileName = this.jList1.getSelectedValue();
+            this.jTable1.setEnabled(false);
+            this.jTextField1.setText("");
+            this.jTextField2.setText("");
+            this.jTextField3.setText("");
+            this.jLabel6.setText("");
+            this.jTable1.setModel(new DefaultTableModel());
+            this.jButton3.setEnabled(false);
+            this.jButton4.setEnabled(false);
+            this.jButton6.setEnabled(false);
+            this.jButton7.setEnabled(false);
+            this.jList1.setEnabled(true);
+            this.jButton1.setEnabled(true);
+            this.jButton5.setEnabled(false);
+            log("List closed: " + fileName, logger);
         } catch (IOException ex) {
             java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        try {
+            log("Exporting list...", logger);
+            String fileName = this.jList1.getSelectedValue().replace(".cray", ".csv");
+            if (fileName != null) {
+                File dir = new File("export");
+                dir.mkdir();
+                
+                FileWriter fw = new FileWriter("export/" + fileName, true);
+                BufferedWriter bw = new BufferedWriter(fw);
+                PrintWriter pw = new PrintWriter(bw);
+                DefaultTableModel dtm = (DefaultTableModel) this.jTable1.getModel();
+                for (int i = 0; i < dtm.getRowCount(); i++) {
+                    pw.println(dtm.getValueAt(i, 0) + ","
+                            + dtm.getValueAt(i, 1) + ","
+                            + dtm.getValueAt(i, 2) + ","
+                            + dtm.getValueAt(i, 3) + ","
+                            + dtm.getValueAt(i, 4) + ","
+                            + dtm.getValueAt(i, 5) + ","
+                            + dtm.getValueAt(i, 6) + ","
+                            + dtm.getValueAt(i, 7) + ","
+                            + dtm.getValueAt(i, 8) + ","
+                            + dtm.getValueAt(i, 9));
+                }
+                pw.close();
+                bw.close();
+                fw.close();
+                java.awt.EventQueue.invokeLater(() -> {
+                    new ExportDialog().setVisible(true);
+                });
+                log("List exported to: " + fileName, logger);
+            } else {
+                log("No list selected to export...", logger);
+            }
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -485,13 +627,13 @@ public class MainScreen extends javax.swing.JFrame {
      * @throws java.lang.IllegalAccessException
      * @throws javax.swing.UnsupportedLookAndFeelException
      */
-    public static void main(String args[]) throws FileNotFoundException, 
-            IOException, ClassNotFoundException, InterruptedException, 
-            InstantiationException, IllegalAccessException, 
-            UnsupportedLookAndFeelException{
+    public static void main(String args[]) throws FileNotFoundException,
+            IOException, ClassNotFoundException, InterruptedException,
+            InstantiationException, IllegalAccessException,
+            UnsupportedLookAndFeelException {
         
         UIManager.setLookAndFeel(new DarculaLaf());
-
+        
         Splash splash = new Splash();
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -507,18 +649,7 @@ public class MainScreen extends javax.swing.JFrame {
             }
         });
         
-        File[] files = new File("data").listFiles();
-        ArrayList<String> fileNames = new ArrayList<String>();
-        for(int i = 0; i < files.length; i++){
-            if(files[i].isFile()){
-                fileNames.add(files[i].getName());
-            }
-        }
-        DefaultListModel dlm = new DefaultListModel();
-        for(int j = 0; j < fileNames.size(); j++){
-            dlm.addElement(fileNames.get(j));
-        }
-        application.jList1.setModel(dlm);
+        updateList();
         
         DS200 a = new DS200();
         DS200List list = new DS200List("Test", "John", "Jim");
@@ -526,7 +657,7 @@ public class MainScreen extends javax.swing.JFrame {
         System.out.println(list.toString());
         System.out.println(list);
         System.out.println(list.getList().get(0));
-        
+
         //File Output
         File dir = new File("data");
         dir.mkdir();
@@ -536,11 +667,11 @@ public class MainScreen extends javax.swing.JFrame {
         oos.close();
         fos.close();
         System.out.println("Saved list to /data/list.cray");
-        
+
         //File Input
         FileInputStream fis = new FileInputStream("data/list.cray");
         ObjectInputStream ois = new ObjectInputStream(fis);
-        DS200List readList = (DS200List)ois.readObject();
+        DS200List readList = (DS200List) ois.readObject();
         ois.close();
         fis.close();
         
@@ -548,18 +679,19 @@ public class MainScreen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton4;
+    public javax.swing.JButton jButton5;
+    public javax.swing.JButton jButton6;
+    public javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    public javax.swing.JLabel jLabel6;
     public javax.swing.JList<String> jList1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -586,9 +718,9 @@ public class MainScreen extends javax.swing.JFrame {
     private javax.swing.JPopupMenu.Separator jSeparator4;
     private javax.swing.JPopupMenu.Separator jSeparator5;
     public javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    public javax.swing.JTextField jTextField1;
+    public javax.swing.JTextField jTextField2;
+    public javax.swing.JTextField jTextField3;
     public javax.swing.JTextPane jTextPane1;
     // End of variables declaration//GEN-END:variables
 }

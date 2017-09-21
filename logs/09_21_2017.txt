@@ -1,3 +1,975 @@
 [12:57:05AM]: List Created!
 [12:57:05AM]: List Saved!
 [12:57:05AM]: Done loading 1,085 records
+[09:24:58AM]: List Created!
+[09:24:59AM]: List Saved!
+[09:24:59AM]: Done loading 1,085 records
+[09:31:05AM]: List Created!
+[09:31:05AM]: List Saved!
+[09:31:05AM]: Done loading 1,085 records
+[09:31:14AM]: list.cray
+[09:31:19AM]: .cray
+[09:31:22AM]: nigger.cray
+[09:39:20AM]: List Created!
+[09:39:20AM]: List Saved!
+[09:39:20AM]: Done loading 1,085 records
+[09:39:24AM]: List Cleared!
+[09:39:34AM]: List Cleared!
+[09:39:35AM]: List Cleared!
+[09:39:36AM]: List Cleared!
+[09:39:37AM]: List Cleared!
+[09:42:11AM]: List Created!
+[09:42:11AM]: List Saved!
+[09:42:11AM]: Done loading 1,085 records
+[09:42:19AM]: List Cleared!
+[09:42:36AM]: List Opened: list.cray
+[09:44:58AM]: List Cleared!
+[09:44:59AM]: List Opened: list.cray
+[09:49:25AM]: List Cleared!
+[09:49:27AM]: List Opened: list.cray
+[10:03:45AM]: List Created!
+[10:03:45AM]: List Saved!
+[10:03:45AM]: Done loading 1,085 records
+[10:06:25AM]: List Created!
+[10:06:25AM]: List Saved!
+[10:06:25AM]: Done loading 1,085 records
+[10:06:40AM]: List Created!
+[10:06:40AM]: List Saved!
+[10:06:40AM]: Done loading 1,085 records
+[10:06:54AM]: List Created!
+[10:06:54AM]: List Saved!
+[10:06:55AM]: Done loading 1,085 records
+[10:06:57AM]: No list is selected...
+[10:07:00AM]: No list is selected...
+[10:07:01AM]: No list is selected...
+[10:07:02AM]: No list is selected...
+[10:07:06AM]: List Cleared!
+[10:07:08AM]: List Opened: list.cray
+[10:07:27AM]: List Cleared!
+[10:09:21AM]: List Created!
+[10:09:21AM]: List Saved!
+[10:09:21AM]: Done loading 1,085 records
+[10:09:30AM]: List Opened: list.cray
+[10:09:43AM]: List Cleared!
+[10:10:16AM]: List Created!
+[10:10:16AM]: List Saved!
+[10:10:16AM]: Done loading 1,085 records
+[10:10:19AM]: List Opened: list.cray
+[10:14:01AM]: List Created!
+[10:14:01AM]: List Saved!
+[10:14:01AM]: Done loading 1,085 records
+[10:14:04AM]: List Opened: list.cray
+[10:14:27AM]: List Created!
+[10:14:27AM]: List Saved!
+[10:14:27AM]: Done loading 1,085 records
+[10:14:40AM]: List Opened: list.cray
+[10:15:04AM]: List Cleared!
+[10:22:40AM]: List Created!
+[10:22:40AM]: List Saved!
+[10:22:41AM]: Done loading 1,085 records
+[10:25:03AM]: List Created!
+[10:25:03AM]: List Saved!
+[10:25:03AM]: Done loading 1,085 records
+[10:25:05AM]: List deleted: list2.cray
+[10:25:09AM]: List deleted: nigger.cray
+[10:25:11AM]: List deleted: please.cray
+[10:25:13AM]: List deleted: segsge.cray
+[10:25:15AM]: List deleted: www.cray
+[10:25:16AM]: Unable to delete www.cray
+[10:25:21AM]: List deleted: gg.cray
+[10:25:23AM]: List deleted: .cray
+[10:25:42AM]: List Created!
+[10:25:42AM]: List Saved!
+[10:25:42AM]: Done loading 1,085 records
+[10:25:47AM]: List deleted: list.cray
+[10:25:48AM]: List Cleared!
+[10:25:52AM]: List Cleared!
+[10:25:59AM]: List Cleared!
+[10:27:19AM]: List Created!
+[10:27:19AM]: List Saved!
+[10:27:19AM]: Done loading 1,085 records
+[10:27:52AM]: List Created!
+[10:27:52AM]: List Saved!
+[10:27:52AM]: Done loading 1,085 records
+[10:28:00AM]: List Opened: Democratic Primary.cray
+[10:28:03AM]: List Opened: list.cray
+[10:28:06AM]: List Opened: Democratic Primary.cray
+[10:28:08AM]: List Opened: list.cray
+[10:28:10AM]: List Opened: Democratic Primary.cray
+[10:28:12AM]: List Opened: list.cray
+[10:28:15AM]: List Opened: Democratic Primary.cray
+[10:28:20AM]: List deleted: Democratic Primary.cray
+[10:30:09AM]: List Created!
+[10:30:10AM]: List Saved!
+[10:30:10AM]: Done loading 1,085 records
+[10:30:22AM]: List Created!
+[10:30:22AM]: List Saved!
+[10:30:22AM]: Done loading 1,085 records
+[10:30:26AM]: List deleted: geas.cray
+[10:30:29AM]: Unable to delete null
+[10:30:30AM]: Unable to delete null
+[10:30:30AM]: Unable to delete null
+[10:30:31AM]: Unable to delete null
+[10:30:31AM]: Unable to delete null
+[10:30:32AM]: Unable to delete null
+[10:30:32AM]: Unable to delete null
+[10:30:32AM]: Unable to delete null
+[10:30:32AM]: Unable to delete null
+[10:30:32AM]: Unable to delete null
+[10:30:33AM]: Unable to delete null
+[10:30:33AM]: Unable to delete null
+[10:30:33AM]: Unable to delete null
+[10:31:21AM]: List Created!
+[10:31:21AM]: List Saved!
+[10:31:21AM]: Done loading 1,085 records
+[10:31:24AM]: List deleted: list.cray
+[10:31:25AM]: Unable to delete null
+[10:31:26AM]: Unable to delete null
+[10:31:26AM]: Unable to delete null
+[10:31:26AM]: Unable to delete null
+[10:31:26AM]: Unable to delete null
+[10:31:42AM]: List Created!
+[10:31:42AM]: List Saved!
+[10:31:42AM]: Done loading 1,085 records
+[10:31:55AM]: List Created!
+[10:31:55AM]: List Saved!
+[10:31:55AM]: Done loading 1,085 records
+[10:31:58AM]: List Opened: sdfb.cray
+[10:32:00AM]: List Opened: list.cray
+[10:32:07AM]: List deleted: sdfb.cray
+[10:32:11AM]: List deleted: list.cray
+[10:32:13AM]: List Cleared!
+[10:34:12AM]: List Created!
+[10:34:12AM]: List Saved!
+[10:34:12AM]: Done loading 1,085 records
+[10:34:29AM]: List Created!
+[10:34:29AM]: List Saved!
+[10:34:29AM]: Done loading 1,085 records
+[10:37:17AM]: List Created!
+[10:37:18AM]: List Saved!
+[10:37:18AM]: Done loading 1,085 records
+[10:39:53AM]: List Created!
+[10:39:53AM]: List Saved!
+[10:39:53AM]: Done loading 1,085 records
+[10:39:57AM]: List Opened: ef.cray
+[10:40:02AM]: List Opened: list.cray
+[10:40:06AM]: List Cleared!
+[10:40:11AM]: List Opened: ef.cray
+[10:40:14AM]: List Opened: list.cray
+[10:44:12AM]: List Created!
+[10:44:12AM]: List Saved!
+[10:44:12AM]: Done loading 1,085 records
+[10:44:18AM]: List Opened: ef.cray
+[10:44:21AM]: List Opened: list.cray
+[10:45:08AM]: List Created!
+[10:45:08AM]: List Saved!
+[10:45:08AM]: Done loading 1,085 records
+[10:45:11AM]: List Opened: ef.cray
+[10:45:14AM]: List Cleared!
+[10:45:15AM]: List Cleared!
+[10:45:16AM]: List Cleared!
+[10:45:17AM]: List Cleared!
+[10:45:19AM]: List Cleared!
+[10:45:20AM]: List Cleared!
+[10:45:25AM]: List Opened: ef.cray
+[10:45:28AM]: List Opened: list.cray
+[10:46:21AM]: List Created!
+[10:46:21AM]: List Saved!
+[10:46:21AM]: Done loading 1,085 records
+[10:46:24AM]: List Opened: ef.cray
+[10:46:28AM]: List Opened: list.cray
+[10:46:47AM]: List Created!
+[10:46:47AM]: List Saved!
+[10:46:47AM]: Done loading 1,085 records
+[10:46:50AM]: List Opened: list.cray
+[10:46:53AM]: List Opened: ef.cray
+[10:46:57AM]: List Opened: list.cray
+[10:48:27AM]: List Created!
+[10:48:27AM]: List Saved!
+[10:48:27AM]: Done loading 1,085 records
+[10:49:02AM]: List Created!
+[10:49:02AM]: List Saved!
+[10:49:02AM]: Done loading 1,085 records
+[10:49:04AM]: List Opened: ef.cray
+[10:49:06AM]: List Opened: list.cray
+[10:50:07AM]: List Created!
+[10:50:12AM]: List Saved!
+[10:50:12AM]: Done loading 1,085 records
+[10:51:00AM]: List Created!
+[10:51:04AM]: List Saved!
+[10:51:04AM]: Done loading 1,085 records
+[10:51:16AM]: List Opened: yolo.cray
+[10:52:45AM]: List Created!
+[10:52:45AM]: List Saved!
+[10:52:45AM]: Done loading 1,085 records
+[10:52:48AM]: List Opened: ef.cray
+[10:52:48AM]: Done loading 0 records
+[10:52:50AM]: List Opened: list.cray
+[10:52:50AM]: Done loading 1,085 records
+[10:53:01AM]: List Opened: yolo.cray
+[10:53:01AM]: Done loading 1,000,000 records
+[10:53:40AM]: List Cleared!
+[10:53:58AM]: List Opened: yolo.cray
+[10:53:58AM]: Done loading 1,000,000 records
+[11:14:32AM]: List Created!
+[11:14:32AM]: List Saved!
+[11:14:32AM]: Done loading 1,085 records
+[11:15:17AM]: List Created!
+[11:15:17AM]: List Saved!
+[11:15:17AM]: Done loading 1,085 records
+[11:15:20AM]: List Opened: list.cray
+[11:15:20AM]: Done loading 1,085 records
+[11:15:28AM]: List exported to: 
+[11:19:35AM]: List Created!
+[11:19:36AM]: List Saved!
+[11:19:36AM]: Done loading 1,085 records
+[11:19:38AM]: List exported to: ef.csv
+[11:19:42AM]: List exported to: yolo.csv
+[11:20:00AM]: List Opened: ef.cray
+[11:20:00AM]: Done loading 0 records
+[11:20:02AM]: List exported to: ef.csv
+[11:20:04AM]: List Opened: list.cray
+[11:20:04AM]: Done loading 1,085 records
+[11:20:05AM]: List exported to: list.csv
+[11:20:16AM]: List Opened: yolo.cray
+[11:20:16AM]: Done loading 1,000,000 records
+[11:20:27AM]: List exported to: yolo.csv
+[11:28:06AM]: List Created!
+[11:28:06AM]: List Saved!
+[11:28:06AM]: Done loading 1,085 records
+[11:28:11AM]: List Opened: ef.cray
+[11:28:11AM]: Done loading 0 records
+[11:28:19AM]: List Opened: list.cray
+[11:28:19AM]: Done loading 1,085 records
+[11:28:27AM]: List Opened: list.cray
+[11:28:27AM]: Done loading 1,085 records
+[11:28:30AM]: Exporting list...
+[11:28:30AM]: List exported to: list.csv
+[11:28:58AM]: List Created!
+[11:28:58AM]: List Saved!
+[11:28:58AM]: Done loading 1,085 records
+[11:29:18AM]: List Opened: list.cray
+[11:29:18AM]: Done loading 1,085 records
+[11:29:28AM]: Exporting list...
+[11:29:28AM]: List exported to: list.csv
+[11:29:48AM]: Exporting list...
+[11:29:48AM]: List exported to: list.csv
+[11:29:52AM]: Exporting list...
+[11:29:52AM]: List exported to: yolo.csv
+[11:30:06AM]: List Opened: yolo.cray
+[11:30:06AM]: Done loading 1,000,000 records
+[11:30:10AM]: Exporting list...
+[11:30:12AM]: List exported to: yolo.csv
+[11:31:47AM]: List Created!
+[11:31:47AM]: List Saved!
+[11:31:47AM]: Done loading 1,085 records
+[11:31:52AM]: List Opened: ef.cray
+[11:31:52AM]: Done loading 0 records
+[11:31:59AM]: List Opened: list.cray
+[11:31:59AM]: Done loading 1,085 records
+[11:32:02AM]: List Opened: yolo.cray
+[11:32:11AM]: Done loading 1,000,000 records
+[11:36:37AM]: List Created!
+[11:36:37AM]: List Saved!
+[11:36:37AM]: Done loading 1,085 records
+[11:36:40AM]: List Opened: ef.cray
+[11:36:40AM]: Done loading 0 records
+[11:37:17AM]: List Cleared!
+[11:38:20AM]: List Created!
+[11:38:20AM]: List Saved!
+[11:38:20AM]: Done loading 1,085 records
+[11:38:24AM]: List Opened: list.cray
+[11:38:24AM]: Done loading 1,085 records
+[11:38:25AM]: List closed!
+[11:38:27AM]: List Opened: list.cray
+[11:38:27AM]: Done loading 1,085 records
+[11:38:28AM]: List closed!
+[11:38:28AM]: List Opened: list.cray
+[11:38:28AM]: Done loading 1,085 records
+[11:38:29AM]: List closed!
+[11:38:29AM]: List Opened: list.cray
+[11:38:29AM]: Done loading 1,085 records
+[11:38:30AM]: List closed!
+[11:38:31AM]: List Opened: list.cray
+[11:38:31AM]: Done loading 1,085 records
+[11:38:32AM]: List closed!
+[11:38:33AM]: List Opened: list.cray
+[11:38:33AM]: Done loading 1,085 records
+[11:38:59AM]: List Opened: list.cray
+[11:38:59AM]: Done loading 1,085 records
+[11:39:00AM]: List closed!
+[11:39:01AM]: List Opened: list.cray
+[11:39:01AM]: Done loading 1,085 records
+[11:39:02AM]: List closed!
+[11:39:04AM]: List Opened: list.cray
+[11:39:04AM]: Done loading 1,085 records
+[11:39:10AM]: List closed!
+[11:39:15AM]: List Opened: list.cray
+[11:39:15AM]: Done loading 1,085 records
+[11:39:17AM]: List closed!
+[11:40:28AM]: List Created!
+[11:40:28AM]: List Saved!
+[11:40:28AM]: Done loading 1,085 records
+[11:40:31AM]: List Opened: list.cray
+[11:40:31AM]: Done loading 1,085 records
+[11:40:31AM]: List closed: list.cray
+[11:40:32AM]: List Opened: list.cray
+[11:40:32AM]: Done loading 1,085 records
+[11:40:33AM]: List closed: list.cray
+[11:40:33AM]: List Opened: list.cray
+[11:40:33AM]: Done loading 1,085 records
+[11:40:34AM]: List closed: list.cray
+[11:40:34AM]: List Opened: list.cray
+[11:40:34AM]: Done loading 1,085 records
+[11:40:34AM]: List closed: list.cray
+[11:40:35AM]: List Opened: list.cray
+[11:40:35AM]: Done loading 1,085 records
+[11:40:35AM]: List closed: list.cray
+[11:40:35AM]: List Opened: list.cray
+[11:40:35AM]: Done loading 1,085 records
+[11:40:36AM]: List closed: list.cray
+[11:40:36AM]: List Opened: list.cray
+[11:40:36AM]: Done loading 1,085 records
+[11:40:37AM]: List closed: list.cray
+[11:40:37AM]: List Opened: list.cray
+[11:40:37AM]: Done loading 1,085 records
+[11:40:37AM]: List closed: list.cray
+[11:40:37AM]: List Opened: list.cray
+[11:40:37AM]: Done loading 1,085 records
+[11:40:38AM]: List closed: list.cray
+[11:40:38AM]: List Opened: list.cray
+[11:40:38AM]: Done loading 1,085 records
+[11:40:39AM]: List Opened: ef.cray
+[11:40:39AM]: Done loading 0 records
+[11:40:41AM]: List Opened: list.cray
+[11:40:41AM]: Done loading 1,085 records
+[11:40:42AM]: List Opened: yolo.cray
+[11:40:51AM]: Done loading 1,000,000 records
+[11:40:57AM]: Exporting list...
+[11:40:59AM]: List exported to: yolo.csv
+[11:41:40AM]: List closed: yolo.cray
+[11:42:51AM]: List Created!
+[11:42:51AM]: List Saved!
+[11:42:51AM]: Done loading 1,085 records
+[11:42:55AM]: List Opened: ef.cray
+[11:42:55AM]: Done loading 0 records
+[11:42:59AM]: List closed: ef.cray
+[11:43:00AM]: List Opened: yolo.cray
+[11:43:09AM]: Done loading 1,000,000 records
+[11:44:03AM]: List closed: yolo.cray
+[11:44:04AM]: List Opened: ef.cray
+[11:44:04AM]: Done loading 0 records
+[11:44:05AM]: List closed: ef.cray
+[11:44:07AM]: List Opened: list.cray
+[11:44:07AM]: Done loading 1,085 records
+[11:44:08AM]: List closed: list.cray
+[11:44:09AM]: List Opened: yolo.cray
+[11:44:17AM]: Done loading 1,000,000 records
+[11:44:33AM]: Exporting list...
+[11:44:35AM]: List exported to: yolo.csv
+[11:44:42AM]: List closed: yolo.cray
+[11:44:44AM]: List Opened: list.cray
+[11:44:44AM]: Done loading 1,085 records
+[11:44:46AM]: Exporting list...
+[11:44:46AM]: List exported to: list.csv
+[11:44:50AM]: List closed: list.cray
+[11:46:25AM]: List Created!
+[11:46:25AM]: List Saved!
+[11:46:25AM]: Done loading 1,085 records
+[11:46:27AM]: List Opened: list.cray
+[11:46:27AM]: Done loading 1,085 records
+[11:46:28AM]: List closed: list.cray
+[11:46:28AM]: List Opened: list.cray
+[11:46:28AM]: Done loading 1,085 records
+[11:46:29AM]: List closed: list.cray
+[11:46:30AM]: List Opened: list.cray
+[11:46:30AM]: Done loading 1,085 records
+[11:46:31AM]: List closed: list.cray
+[11:46:33AM]: List Opened: yolo.cray
+[11:46:41AM]: Done loading 1,000,000 records
+[11:46:44AM]: List closed: yolo.cray
+[11:47:46AM]: List Opened: yolo.cray
+[11:47:54AM]: Done loading 1,000,000 records
+[11:51:33AM]: Exporting list...
+[11:51:35AM]: List exported to: yolo.csv
+[11:51:44AM]: List closed: yolo.cray
+[11:59:05AM]: List Opened: yolo.cray
+[11:59:13AM]: Done loading 1,000,000 records
+[11:59:37AM]: List closed: yolo.cray
+[11:59:39AM]: List Opened: list.cray
+[11:59:39AM]: Done loading 1,085 records
+[11:59:40AM]: List closed: list.cray
+[11:59:40AM]: List Opened: list.cray
+[11:59:40AM]: Done loading 1,085 records
+[11:59:41AM]: List closed: list.cray
+[11:59:41AM]: List Opened: list.cray
+[11:59:41AM]: Done loading 1,085 records
+[11:59:42AM]: List closed: list.cray
+[11:59:42AM]: List Opened: list.cray
+[11:59:42AM]: Done loading 1,085 records
+[11:59:43AM]: List closed: list.cray
+[11:59:44AM]: List Opened: list.cray
+[11:59:44AM]: Done loading 1,085 records
+[11:59:44AM]: List closed: list.cray
+[11:59:45AM]: List Opened: list.cray
+[11:59:45AM]: Done loading 1,085 records
+[11:59:46AM]: List closed: list.cray
+[11:59:46AM]: List Opened: list.cray
+[11:59:46AM]: Done loading 1,085 records
+[11:59:47AM]: List closed: list.cray
+[11:59:47AM]: List Opened: list.cray
+[11:59:47AM]: Done loading 1,085 records
+[11:59:48AM]: List closed: list.cray
+[11:59:48AM]: List Opened: list.cray
+[11:59:48AM]: Done loading 1,085 records
+[11:59:49AM]: List closed: list.cray
+[11:59:49AM]: List Opened: list.cray
+[11:59:49AM]: Done loading 1,085 records
+[11:59:50AM]: List closed: list.cray
+[11:59:50AM]: List Opened: list.cray
+[11:59:50AM]: Done loading 1,085 records
+[11:59:50AM]: List closed: list.cray
+[11:59:51AM]: List Opened: list.cray
+[11:59:51AM]: Done loading 1,085 records
+[11:59:51AM]: List closed: list.cray
+[11:59:52AM]: List Opened: list.cray
+[11:59:52AM]: Done loading 1,085 records
+[11:59:52AM]: List closed: list.cray
+[11:59:53AM]: List Opened: list.cray
+[11:59:53AM]: Done loading 1,085 records
+[11:59:53AM]: List closed: list.cray
+[11:59:54AM]: List Opened: list.cray
+[11:59:54AM]: Done loading 1,085 records
+[11:59:54AM]: List closed: list.cray
+[11:59:54AM]: List Opened: list.cray
+[11:59:54AM]: Done loading 1,085 records
+[11:59:55AM]: List closed: list.cray
+[11:59:55AM]: List Opened: list.cray
+[11:59:55AM]: Done loading 1,085 records
+[12:00:03PM]: List closed: list.cray
+[12:01:32PM]: List Created!
+[12:01:32PM]: List Saved!
+[12:01:32PM]: Done loading 1,085 records
+[12:01:40PM]: List Opened: list.cray
+[12:01:40PM]: Done loading 1,085 records
+[12:01:42PM]: List closed: list.cray
+[12:01:42PM]: List Opened: list.cray
+[12:01:42PM]: Done loading 1,085 records
+[12:01:43PM]: List closed: list.cray
+[12:01:43PM]: List Opened: list.cray
+[12:01:43PM]: Done loading 1,085 records
+[12:01:44PM]: List closed: list.cray
+[12:01:44PM]: List Opened: list.cray
+[12:01:44PM]: Done loading 1,085 records
+[12:01:45PM]: List closed: list.cray
+[12:01:45PM]: List Opened: list.cray
+[12:01:45PM]: Done loading 1,085 records
+[12:01:45PM]: List closed: list.cray
+[12:01:46PM]: List Opened: list.cray
+[12:01:46PM]: Done loading 1,085 records
+[12:01:46PM]: List closed: list.cray
+[12:01:47PM]: List Opened: list.cray
+[12:01:47PM]: Done loading 1,085 records
+[12:01:47PM]: List closed: list.cray
+[12:01:47PM]: List Opened: list.cray
+[12:01:47PM]: Done loading 1,085 records
+[12:02:07PM]: List closed: list.cray
+[12:02:09PM]: List Opened: list.cray
+[12:02:09PM]: Done loading 1,085 records
+[12:02:09PM]: List closed: list.cray
+[12:02:09PM]: List Opened: list.cray
+[12:02:09PM]: Done loading 1,085 records
+[12:02:10PM]: List closed: list.cray
+[12:02:10PM]: List Opened: list.cray
+[12:02:10PM]: Done loading 1,085 records
+[12:02:11PM]: List closed: list.cray
+[12:02:11PM]: List Opened: list.cray
+[12:02:11PM]: Done loading 1,085 records
+[12:02:11PM]: List closed: list.cray
+[12:02:12PM]: List Opened: list.cray
+[12:02:12PM]: Done loading 1,085 records
+[12:02:12PM]: List closed: list.cray
+[12:02:13PM]: List Opened: list.cray
+[12:02:13PM]: Done loading 1,085 records
+[12:02:13PM]: List closed: list.cray
+[12:02:13PM]: List Opened: list.cray
+[12:02:13PM]: Done loading 1,085 records
+[12:02:14PM]: List closed: list.cray
+[12:02:14PM]: List Opened: list.cray
+[12:02:14PM]: Done loading 1,085 records
+[12:02:15PM]: List closed: list.cray
+[12:02:15PM]: List Opened: list.cray
+[12:02:15PM]: Done loading 1,085 records
+[12:02:16PM]: List closed: list.cray
+[12:02:16PM]: List Opened: list.cray
+[12:02:16PM]: Done loading 1,085 records
+[12:02:17PM]: List closed: list.cray
+[12:02:17PM]: List Opened: list.cray
+[12:02:17PM]: Done loading 1,085 records
+[12:02:18PM]: List closed: list.cray
+[12:02:18PM]: List Opened: list.cray
+[12:02:18PM]: Done loading 1,085 records
+[12:02:20PM]: List closed: list.cray
+[12:02:21PM]: List Opened: list.cray
+[12:02:21PM]: Done loading 1,085 records
+[12:02:21PM]: List closed: list.cray
+[12:02:22PM]: List Opened: list.cray
+[12:02:22PM]: Done loading 1,085 records
+[12:02:22PM]: List closed: list.cray
+[12:02:23PM]: List Opened: list.cray
+[12:02:23PM]: Done loading 1,085 records
+[12:02:31PM]: List closed: list.cray
+[12:12:46PM]: List Created!
+[12:12:46PM]: List Saved!
+[12:12:46PM]: Done loading 1,085 records
+[12:15:06PM]: List Created!
+[12:15:06PM]: List Saved!
+[12:15:06PM]: Done loading 1,085 records
+[12:20:12PM]: List Created!
+[12:20:12PM]: List Saved!
+[12:20:12PM]: Done loading 1,085 records
+[12:20:14PM]: List Opened: list.cray
+[12:20:14PM]: Done loading 1,085 records
+[12:24:34PM]: List closed: list.cray
+[12:24:35PM]: List Opened: list.cray
+[12:24:35PM]: Done loading 1,085 records
+[12:24:36PM]: List closed: list.cray
+[12:24:36PM]: List Opened: list.cray
+[12:24:36PM]: Done loading 1,085 records
+[12:24:37PM]: List closed: list.cray
+[12:24:37PM]: List Opened: list.cray
+[12:24:37PM]: Done loading 1,085 records
+[12:24:37PM]: List closed: list.cray
+[12:24:38PM]: List Opened: list.cray
+[12:24:38PM]: Done loading 1,085 records
+[12:24:38PM]: List closed: list.cray
+[12:24:39PM]: List Opened: list.cray
+[12:24:39PM]: Done loading 1,085 records
+[12:24:40PM]: List closed: list.cray
+[12:24:40PM]: List Opened: list.cray
+[12:24:40PM]: Done loading 1,085 records
+[12:24:40PM]: List closed: list.cray
+[12:24:41PM]: List Opened: list.cray
+[12:24:41PM]: Done loading 1,085 records
+[12:24:42PM]: List closed: list.cray
+[12:24:43PM]: List Opened: list.cray
+[12:24:43PM]: Done loading 1,085 records
+[12:24:44PM]: List closed: list.cray
+[12:24:44PM]: List Opened: list.cray
+[12:24:44PM]: Done loading 1,085 records
+[12:24:46PM]: List closed: list.cray
+[12:24:50PM]: List Opened: list.cray
+[12:24:50PM]: Done loading 1,085 records
+[12:24:51PM]: List closed: list.cray
+[12:24:55PM]: List Opened: list.cray
+[12:24:55PM]: Done loading 1,085 records
+[12:24:58PM]: List closed: list.cray
+[12:24:59PM]: List Opened: list.cray
+[12:24:59PM]: Done loading 1,085 records
+[12:25:00PM]: List closed: list.cray
+[12:25:01PM]: List Opened: list.cray
+[12:25:01PM]: Done loading 1,085 records
+[12:25:01PM]: List closed: list.cray
+[01:36:29PM]: List Opened: list.cray
+[01:36:29PM]: Done loading 1,085 records
+[01:36:29PM]: List Opened: list.cray
+[01:36:29PM]: Done loading 1,085 records
+[01:53:00PM]: List Created!
+[01:53:00PM]: List Saved!
+[01:53:00PM]: Done loading 1,085 records
+[01:53:03PM]: List Opened: ef.cray
+[01:53:03PM]: Done loading 0 records
+[01:53:05PM]: List closed: ef.cray
+[01:53:06PM]: List Opened: list.cray
+[01:53:06PM]: Done loading 1,085 records
+[01:53:10PM]: List closed: list.cray
+[02:00:19PM]: List Created!
+[02:00:19PM]: List Saved!
+[02:00:19PM]: Done loading 1,085 records
+[02:00:22PM]: No list is selected...
+[02:00:24PM]: No list is selected...
+[02:00:24PM]: No list is selected...
+[02:00:24PM]: No list is selected...
+[02:00:24PM]: No list is selected...
+[02:00:25PM]: No list is selected...
+[02:00:25PM]: No list is selected...
+[02:00:25PM]: No list is selected...
+[02:00:25PM]: No list is selected...
+[02:00:26PM]: No list is selected...
+[02:00:26PM]: No list is selected...
+[02:00:26PM]: No list is selected...
+[02:00:26PM]: No list is selected...
+[02:00:26PM]: No list is selected...
+[02:00:27PM]: No list is selected...
+[02:00:27PM]: No list is selected...
+[02:00:27PM]: No list is selected...
+[02:00:27PM]: No list is selected...
+[02:00:27PM]: No list is selected...
+[02:00:28PM]: No list is selected...
+[02:00:28PM]: No list is selected...
+[02:00:28PM]: No list is selected...
+[02:00:28PM]: No list is selected...
+[02:00:28PM]: No list is selected...
+[02:00:29PM]: No list is selected...
+[02:00:29PM]: No list is selected...
+[02:00:29PM]: No list is selected...
+[02:00:30PM]: No list is selected...
+[02:00:30PM]: No list is selected...
+[02:02:41PM]: List Created!
+[02:02:41PM]: List Saved!
+[02:02:41PM]: Done loading 1,085 records
+[02:02:42PM]: No list is selected...
+[02:02:45PM]: List Opened: list.cray
+[02:02:45PM]: Done loading 1,085 records
+[02:04:20PM]: List Created!
+[02:04:20PM]: List Saved!
+[02:04:20PM]: Done loading 1,085 records
+[02:04:23PM]: List Opened: ef.cray
+[02:04:23PM]: Done loading 0 records
+[02:04:30PM]: List closed: ef.cray
+[02:05:15PM]: List Created!
+[02:05:15PM]: List Saved!
+[02:05:16PM]: Done loading 1,085 records
+[02:05:17PM]: List Opened: ef.cray
+[02:05:17PM]: Done loading 0 records
+[02:05:19PM]: List closed: ef.cray
+[02:05:20PM]: List Opened: ef.cray
+[02:05:20PM]: Done loading 0 records
+[02:05:20PM]: List closed: ef.cray
+[02:05:21PM]: List Opened: ef.cray
+[02:05:21PM]: Done loading 0 records
+[02:05:21PM]: List closed: ef.cray
+[02:05:22PM]: List Opened: ef.cray
+[02:05:22PM]: Done loading 0 records
+[02:05:22PM]: List closed: ef.cray
+[02:05:23PM]: List Opened: ef.cray
+[02:05:23PM]: Done loading 0 records
+[02:05:24PM]: List closed: ef.cray
+[02:05:25PM]: List Opened: list.cray
+[02:05:25PM]: Done loading 1,085 records
+[02:05:27PM]: List closed: list.cray
+[02:05:28PM]: List Opened: ef.cray
+[02:05:28PM]: Done loading 0 records
+[02:05:29PM]: List closed: ef.cray
+[02:05:30PM]: List Opened: list.cray
+[02:05:30PM]: Done loading 1,085 records
+[02:05:31PM]: List closed: list.cray
+[02:05:32PM]: List Opened: yolo.cray
+[02:05:41PM]: Done loading 1,000,000 records
+[02:05:41PM]: List Opened: yolo.cray
+[02:05:52PM]: Done loading 1,000,000 records
+[02:05:52PM]: List Opened: yolo.cray
+[02:06:03PM]: Done loading 1,000,000 records
+[02:06:03PM]: List Opened: yolo.cray
+[02:06:15PM]: Done loading 1,000,000 records
+[02:06:15PM]: List Opened: yolo.cray
+[02:06:27PM]: Done loading 1,000,000 records
+[02:06:27PM]: List closed: yolo.cray
+[02:06:37PM]: List Opened: list.cray
+[02:06:37PM]: Done loading 1,085 records
+[02:07:30PM]: List closed: list.cray
+[02:07:31PM]: List Opened: list.cray
+[02:07:31PM]: Done loading 1,085 records
+[02:07:32PM]: List closed: list.cray
+[02:07:33PM]: List Opened: list.cray
+[02:07:33PM]: Done loading 1,085 records
+[02:07:33PM]: List closed: list.cray
+[02:07:34PM]: List Opened: list.cray
+[02:07:34PM]: Done loading 1,085 records
+[02:07:34PM]: List closed: list.cray
+[02:07:34PM]: List Opened: list.cray
+[02:07:34PM]: Done loading 1,085 records
+[02:07:35PM]: List closed: list.cray
+[02:07:35PM]: List Opened: list.cray
+[02:07:35PM]: Done loading 1,085 records
+[02:07:35PM]: List closed: list.cray
+[02:07:36PM]: List Opened: list.cray
+[02:07:36PM]: Done loading 1,085 records
+[02:07:36PM]: List closed: list.cray
+[02:07:37PM]: List Opened: list.cray
+[02:07:37PM]: Done loading 1,085 records
+[02:07:37PM]: List closed: list.cray
+[02:07:38PM]: List Opened: list.cray
+[02:07:38PM]: Done loading 1,085 records
+[02:07:38PM]: List closed: list.cray
+[02:07:39PM]: List Opened: list.cray
+[02:07:39PM]: Done loading 1,085 records
+[02:07:39PM]: List closed: list.cray
+[02:07:40PM]: List Opened: list.cray
+[02:07:40PM]: Done loading 1,085 records
+[02:07:40PM]: List closed: list.cray
+[02:07:41PM]: List Opened: list.cray
+[02:07:41PM]: Done loading 1,085 records
+[02:07:42PM]: List closed: list.cray
+[02:07:42PM]: List Opened: list.cray
+[02:07:42PM]: Done loading 1,085 records
+[02:07:43PM]: List closed: list.cray
+[02:07:43PM]: List Opened: list.cray
+[02:07:43PM]: Done loading 1,085 records
+[02:07:43PM]: List closed: list.cray
+[02:07:44PM]: List Opened: list.cray
+[02:07:44PM]: Done loading 1,085 records
+[02:07:44PM]: List closed: list.cray
+[02:07:45PM]: List Opened: list.cray
+[02:07:45PM]: Done loading 1,085 records
+[02:07:45PM]: List closed: list.cray
+[02:07:47PM]: List Opened: list.cray
+[02:07:48PM]: Done loading 1,085 records
+[02:07:49PM]: Exporting list...
+[02:07:49PM]: List exported to: list.csv
+[02:08:11PM]: List closed: list.cray
+[02:14:57PM]: List Created!
+[02:14:57PM]: List Saved!
+[02:14:57PM]: Done loading 1,085 records
+[02:15:05PM]: List Opened: ef.cray
+[02:15:05PM]: Done loading 0 records
+[02:15:19PM]: List Created!
+[02:15:19PM]: List Saved!
+[02:15:19PM]: Done loading 1,085 records
+[02:15:21PM]: List Opened: ef.cray
+[02:15:21PM]: Done loading 0 records
+[02:57:52PM]: List Created!
+[02:57:52PM]: List Saved!
+[02:57:52PM]: Done loading 1,085 records
+[02:57:57PM]: List Opened: list.cray
+[02:57:57PM]: Done loading 1,085 records
+[02:57:59PM]: List closed: list.cray
+[02:58:00PM]: List Opened: list.cray
+[02:58:00PM]: Done loading 1,085 records
+[02:58:01PM]: List closed: list.cray
+[02:58:01PM]: List Opened: list.cray
+[02:58:01PM]: Done loading 1,085 records
+[02:58:02PM]: List closed: list.cray
+[02:58:02PM]: List Opened: list.cray
+[02:58:02PM]: Done loading 1,085 records
+[02:58:03PM]: List closed: list.cray
+[02:58:03PM]: List Opened: list.cray
+[02:58:03PM]: Done loading 1,085 records
+[02:58:04PM]: List closed: list.cray
+[02:58:04PM]: List Opened: list.cray
+[02:58:04PM]: Done loading 1,085 records
+[02:58:05PM]: List closed: list.cray
+[02:58:05PM]: List Opened: list.cray
+[02:58:05PM]: Done loading 1,085 records
+[02:58:06PM]: List closed: list.cray
+[02:58:06PM]: List Opened: list.cray
+[02:58:06PM]: Done loading 1,085 records
+[02:58:07PM]: List closed: list.cray
+[02:58:07PM]: List Opened: list.cray
+[02:58:07PM]: Done loading 1,085 records
+[02:58:07PM]: List closed: list.cray
+[02:58:08PM]: List Opened: list.cray
+[02:58:08PM]: Done loading 1,085 records
+[02:58:08PM]: List closed: list.cray
+[02:58:08PM]: List Opened: list.cray
+[02:58:08PM]: Done loading 1,085 records
+[02:58:09PM]: List closed: list.cray
+[02:58:10PM]: List Opened: list.cray
+[02:58:10PM]: Done loading 1,085 records
+[02:58:10PM]: List closed: list.cray
+[02:58:10PM]: List Opened: list.cray
+[02:58:10PM]: Done loading 1,085 records
+[02:58:10PM]: List closed: list.cray
+[02:58:11PM]: List Opened: list.cray
+[02:58:11PM]: Done loading 1,085 records
+[02:58:11PM]: List closed: list.cray
+[02:58:12PM]: List Opened: list.cray
+[02:58:12PM]: Done loading 1,085 records
+[02:58:12PM]: List closed: list.cray
+[02:58:12PM]: List Opened: list.cray
+[02:58:12PM]: Done loading 1,085 records
+[02:58:13PM]: List closed: list.cray
+[02:58:13PM]: List Opened: list.cray
+[02:58:13PM]: Done loading 1,085 records
+[02:58:14PM]: List closed: list.cray
+[02:58:14PM]: List Opened: list.cray
+[02:58:14PM]: Done loading 1,085 records
+[02:58:14PM]: List closed: list.cray
+[02:58:15PM]: List Opened: list.cray
+[02:58:15PM]: Done loading 1,085 records
+[02:58:15PM]: List closed: list.cray
+[02:58:15PM]: List Opened: list.cray
+[02:58:15PM]: Done loading 1,085 records
+[02:58:16PM]: List closed: list.cray
+[02:58:16PM]: List Opened: list.cray
+[02:58:16PM]: Done loading 1,085 records
+[02:58:16PM]: List closed: list.cray
+[02:58:17PM]: List Opened: list.cray
+[02:58:17PM]: Done loading 1,085 records
+[02:58:17PM]: List closed: list.cray
+[02:58:17PM]: List Opened: list.cray
+[02:58:17PM]: Done loading 1,085 records
+[02:58:18PM]: List closed: list.cray
+[02:58:18PM]: List Opened: list.cray
+[02:58:18PM]: Done loading 1,085 records
+[02:58:18PM]: List closed: list.cray
+[02:58:19PM]: List Opened: list.cray
+[02:58:19PM]: Done loading 1,085 records
+[02:58:20PM]: List closed: list.cray
+[02:58:21PM]: List Opened: list.cray
+[02:58:21PM]: Done loading 1,085 records
+[02:58:21PM]: List closed: list.cray
+[02:58:21PM]: List Opened: list.cray
+[02:58:21PM]: Done loading 1,085 records
+[02:58:22PM]: List closed: list.cray
+[02:58:22PM]: List Opened: list.cray
+[02:58:22PM]: Done loading 1,085 records
+[02:58:23PM]: List closed: list.cray
+[02:58:23PM]: List Opened: list.cray
+[02:58:23PM]: Done loading 1,085 records
+[02:58:24PM]: List closed: list.cray
+[02:58:25PM]: List Opened: list.cray
+[02:58:25PM]: Done loading 1,085 records
+[02:58:26PM]: List closed: list.cray
+[02:58:26PM]: List Opened: list.cray
+[02:58:26PM]: Done loading 1,085 records
+[02:58:28PM]: List closed: list.cray
+[02:58:29PM]: List Opened: list.cray
+[02:58:29PM]: Done loading 1,085 records
+[02:58:30PM]: List closed: list.cray
+[02:58:31PM]: List Opened: ef.cray
+[02:58:31PM]: Done loading 0 records
+[02:58:57PM]: List Created!
+[02:58:57PM]: List Saved!
+[02:58:57PM]: Done loading 1,085 records
+[02:59:01PM]: List Opened: ef.cray
+[02:59:02PM]: Done loading 0 records
+[03:03:16PM]: List Created!
+[03:03:16PM]: List Saved!
+[03:03:16PM]: Done loading 1,085 records
+[03:03:19PM]: List Opened: ef.cray
+[03:03:19PM]: Done loading 0 records
+[03:03:22PM]: List deleted: ef.cray
+[03:03:28PM]: List closed: null
+[03:03:30PM]: List Opened: list.cray
+[03:03:30PM]: Done loading 1,085 records
+[03:03:49PM]: List closed: list.cray
+[03:04:02PM]: List Opened: Blank List.cray
+[03:04:02PM]: Done loading 0 records
+[03:04:08PM]: List closed: Blank List.cray
+[03:07:29PM]: List Created!
+[03:07:29PM]: List Saved!
+[03:07:29PM]: Done loading 1,085 records
+[03:07:32PM]: List Opened: Blank List.cray
+[03:07:32PM]: Done loading 0 records
+[03:07:35PM]: List deleted: Blank List.cray
+[03:07:39PM]: List closed: null
+[03:09:09PM]: List Created!
+[03:09:09PM]: List Saved!
+[03:09:09PM]: Done loading 1,085 records
+[03:09:42PM]: List Opened: empty.cray
+[03:09:42PM]: Done loading 0 records
+[03:09:45PM]: List deleted: empty.cray
+[03:11:32PM]: List Created!
+[03:11:33PM]: List Saved!
+[03:11:33PM]: Done loading 1,085 records
+[03:11:40PM]: List Opened: yufggyu.cray
+[03:11:40PM]: Done loading 0 records
+[03:11:42PM]: List deleted: yufggyu.cray
+[03:11:44PM]: Unable to delete null
+[03:11:58PM]: List Created!
+[03:11:58PM]: List Saved!
+[03:11:58PM]: Done loading 1,085 records
+[03:12:04PM]: No list is selected...
+[03:12:06PM]: List Opened: wefew.cray
+[03:12:06PM]: Done loading 0 records
+[03:12:08PM]: List deleted: wefew.cray
+[03:12:11PM]: Exporting list...
+[03:12:12PM]: Exporting list...
+[03:12:39PM]: List Created!
+[03:12:39PM]: List Saved!
+[03:12:39PM]: Done loading 1,085 records
+[03:12:46PM]: List Opened: qweffwq.cray
+[03:12:46PM]: Done loading 0 records
+[03:12:48PM]: List deleted: qweffwq.cray
+[03:12:52PM]: List Opened: list.cray
+[03:12:52PM]: Done loading 1,085 records
+[03:12:54PM]: List closed: list.cray
+[03:13:19PM]: List Opened: empty.cray
+[03:13:19PM]: Done loading 0 records
+[03:13:24PM]: Exporting list...
+[03:13:24PM]: List exported to: empty.csv
+[03:13:54PM]: List closed: empty.cray
+[03:13:55PM]: List Opened: empty.cray
+[03:13:55PM]: Done loading 0 records
+[03:13:58PM]: List closed: empty.cray
+[03:14:54PM]: List Created!
+[03:14:54PM]: List Saved!
+[03:14:54PM]: Done loading 1,085 records
+[03:14:56PM]: List Opened: empty.cray
+[03:14:56PM]: Done loading 0 records
+[03:14:57PM]: List closed: empty.cray
+[03:15:00PM]: List Opened: list.cray
+[03:15:00PM]: Done loading 1,085 records
+[03:15:01PM]: List closed: list.cray
+[03:15:02PM]: List Opened: list.cray
+[03:15:02PM]: Done loading 1,085 records
+[03:15:04PM]: List closed: list.cray
+[03:15:05PM]: List Opened: list.cray
+[03:15:05PM]: Done loading 1,085 records
+[03:15:06PM]: List closed: list.cray
+[03:15:07PM]: List Opened: list.cray
+[03:15:07PM]: Done loading 1,085 records
+[03:15:07PM]: List closed: list.cray
+[03:15:08PM]: List Opened: list.cray
+[03:15:08PM]: Done loading 1,085 records
+[03:15:08PM]: List closed: list.cray
+[03:15:09PM]: List Opened: list.cray
+[03:15:09PM]: Done loading 1,085 records
+[03:15:09PM]: List closed: list.cray
+[03:15:09PM]: List Opened: list.cray
+[03:15:09PM]: Done loading 1,085 records
+[03:15:10PM]: List closed: list.cray
+[03:15:10PM]: List Opened: list.cray
+[03:15:10PM]: Done loading 1,085 records
+[03:15:11PM]: List closed: list.cray
+[03:15:11PM]: List Opened: list.cray
+[03:15:11PM]: Done loading 1,085 records
+[03:16:41PM]: List Created!
+[03:16:41PM]: List Saved!
+[03:16:41PM]: Done loading 1,085 records
+[03:16:47PM]: List Opened: empty.cray
+[03:16:47PM]: Done loading 0 records
+[03:16:48PM]: List closed: empty.cray
+[03:16:48PM]: List Opened: empty.cray
+[03:16:48PM]: Done loading 0 records
+[03:16:49PM]: List closed: empty.cray
+[03:16:49PM]: List Opened: empty.cray
+[03:16:49PM]: Done loading 0 records
+[03:16:51PM]: List closed: empty.cray
+[03:16:51PM]: List Opened: empty.cray
+[03:16:51PM]: Done loading 0 records
+[03:16:52PM]: List closed: empty.cray
+[03:16:52PM]: List Opened: empty.cray
+[03:16:52PM]: Done loading 0 records
+[03:16:52PM]: List closed: empty.cray
+[03:16:52PM]: List Opened: empty.cray
+[03:16:52PM]: Done loading 0 records
+[03:16:53PM]: List closed: empty.cray
+[03:16:53PM]: List Opened: empty.cray
+[03:16:53PM]: Done loading 0 records
+[03:16:54PM]: List closed: empty.cray
+[03:16:54PM]: List Opened: empty.cray
+[03:16:54PM]: Done loading 0 records
+[03:16:54PM]: List closed: empty.cray
+[03:16:55PM]: List Opened: empty.cray
+[03:16:55PM]: Done loading 0 records
+[03:16:55PM]: List closed: empty.cray
+[03:16:55PM]: List Opened: empty.cray
+[03:16:55PM]: Done loading 0 records
+[03:16:56PM]: List closed: empty.cray
+[03:16:56PM]: List Opened: empty.cray
+[03:16:56PM]: Done loading 0 records
+[03:16:57PM]: List closed: empty.cray
+[03:16:57PM]: List Opened: empty.cray
+[03:16:57PM]: Done loading 0 records
+[03:16:58PM]: List closed: empty.cray
+[03:16:58PM]: List Opened: empty.cray
+[03:16:58PM]: Done loading 0 records
+[03:16:59PM]: List closed: empty.cray
+[03:16:59PM]: List Opened: empty.cray
+[03:16:59PM]: Done loading 0 records
+[03:19:30PM]: List closed: empty.cray
+[03:19:31PM]: List Opened: list.cray
+[03:19:31PM]: Done loading 1,085 records
+[03:51:44PM]: List closed: list.cray

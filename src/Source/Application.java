@@ -32,6 +32,22 @@ public class Application {
 
     public static MainScreen application;
 
+    @SuppressWarnings("unchecked")
+    public static void updateList() {
+        File[] files = new File("data").listFiles();
+        ArrayList<String> fileNames = new ArrayList<>();
+        for (File file : files) {
+            if (file.isFile()) {
+                fileNames.add(file.getName());
+            }
+        }
+        DefaultListModel dlm = new DefaultListModel();
+        for (int j = 0; j < fileNames.size(); j++) {
+            dlm.addElement(fileNames.get(j));
+        }
+        application.jList1.setModel(dlm);
+    }
+
     public static void printConsole(String message) {
         String temp = application.jTextPane1.getText();
         temp += "\n" + message;
